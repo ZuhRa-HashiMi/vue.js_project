@@ -6,7 +6,7 @@
         <div class="line2"></div>
         <div class="line3"></div>
     </div>
-    <div id="navbar" class="navbar">
+    <div id="navbar" class="navbar" >
         <div class="logo">
             <a href="index.html"><img src="../assets/shift.png" alt="page logo" /></a>
         </div>
@@ -28,6 +28,7 @@
 export default {
     name: "NavBar"
 }
+
 
 </script>
 

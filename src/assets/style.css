@@ -104,11 +104,13 @@
     padding: 50px 20px;
   }
   
-  .intro h2 {
-    padding-top: 70px;
+  .intro h3 {
+    padding-top:100px;
     color: var(--secondary-color);
     font-size: 20px;
     font-weight: 400;
+    position: relative;
+    top: 50%;
   }
   
   .intro h1 {
@@ -291,10 +293,10 @@
     
   /* Navbar */
   #navbar {
-    position: static;
+    position:fixed;
     display: flex;
     transform: translateX(0);
-    z-index: 99;
+    z-index: 9999;
     width: 100%;
     height: 70px;
     background-color: #fff;
@@ -304,6 +306,10 @@
     padding: 0 10%;
     align-items: center;
     box-shadow: #272a31 3px;
+    top:0;
+    left:0;
+    right:0;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2); 
   }
 
   #navbar ul {
@@ -348,7 +354,7 @@
   
   /* Introduction Section */
   .intro {
-    height: auto;
+    height:96vh;
     padding: 30px 120px;
   }
 
@@ -486,6 +492,7 @@
 @media screen and (min-width: 769px) and (max-width: 1350px) {
 
   .main-program {
+    
     display: grid;
     grid-template-columns:1fr  ;
     column-gap: 4px;
@@ -497,5 +504,15 @@
     grid-template-columns: 1fr 1fr;
     column-gap: 4px;
   }
+
+}
+#btn{
+  width: 200px;
+  height: 50px;
+  background-color:rgba(0, 0, 255, 0.622);
+  color:#fff;
+  border-radius: 10px;
+  position:relative;
+  top:50%;
 
 }

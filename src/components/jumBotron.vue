@@ -3,8 +3,11 @@
 	<main>
     <!-- Introduction Section -->
     <section id="intro" class="intro">
-         <h3>Redefine what your future ooks like throught Technology.</h3> 
-         <button @click="text()" id="btn" class="btn">Get in touch</button>
+         <div id="mt">
+            <a href="index.html"><img class="img-fluid" src="../assets/background.png" alt="page logo" /></a>
+        </div> 
+         <h3>Redefine what your future looks like throught Technology.</h3> 
+         <button  @click="text()" id="btn">Get in touch</button>
           
     </section>
 	</main>
@@ -16,7 +19,7 @@ export default {
   name: "jumBotron",
   methods: {
     text(){
-        // return true
+        // return false
         alert("Get in touch")   
      }
   },

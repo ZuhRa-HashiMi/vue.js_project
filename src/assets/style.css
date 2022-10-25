@@ -516,3 +516,11 @@
   top:50%;
 
 }
+ #mt{
+  position:absolute;
+  top:30%;
+  left:70%;
+  right: 2%;
+  max-width:100%;
+  max-height: 50%;
+} 

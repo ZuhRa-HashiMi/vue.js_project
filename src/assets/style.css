@@ -98,31 +98,28 @@
   }
 
   .intro {
-    background-image: url("../assets/desktopbg.jpg");
+    /* background-image: url("../assets/desktopbg.jpg"); */
     background-repeat: no-repeat;
     background-size: cover;
     padding: 50px 20px;
+    background-color:whitesmoke;
   }
   
-  .intro h3 {
-    padding-top:100px;
-    color: var(--secondary-color);
+ .txt h2 {
+    /* padding-top:100px;  */
+    color: blue;
     font-size: 20px;
-    font-weight: 400;
-    position: relative;
-    top: 50%;
-  }
+    font-weight: 400px;
+     position: relative;
+    top: 4%;
+    left: 0%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+    
+  }   
   
-  .intro h1 {
-    padding-top: 5px;
-    font-family: var(--secondary-font);
-    font-weight: 800;
-    text-transform: uppercase;
-    font-size: 28px;
-    color: var(--primary-color);
-    padding-bottom: 30px;
-    line-height: 2rem;
-  }
+  
   
   .intro .bio {
     border: solid 3px #fff;
@@ -151,8 +148,8 @@
   
 /* Main Program Section */
 #main-program {
-    background-image: url("../assets/pattern_bg.png");
-    background-color: var(--primary-color);
+    /* background-image: url("../assets/pattern_bg.png"); */
+    background-color: #326293;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -507,20 +504,20 @@
 
 }
 #btn{
-  width: 200px;
-  height: 50px;
+  width: 12%;
+  height: 10%;
   background-color:rgba(0, 0, 255, 0.622);
   color:#fff;
-  border-radius: 10px;
   position:relative;
-  top:50%;
+  top:5%;
+  
 
 }
  #mt{
-  position:absolute;
+  position:relative;
   top:30%;
-  left:70%;
-  right: 2%;
-  max-width:100%;
+  left:68%;
+  right: 1%;
+  max-width:40%;
   max-height: 50%;
 } 

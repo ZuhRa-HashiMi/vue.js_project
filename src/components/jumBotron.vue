@@ -1,4 +1,5 @@
 <template>
+    
  
 	<main>
     <!-- Introduction Section -->
@@ -6,9 +7,15 @@
          <div id="mt">
             <a href="index.html"><img class="img-fluid" src="../assets/background.png" alt="page logo" /></a>
         </div> 
-         <h3>Redefine what your future looks like throught Technology.</h3> 
-         <button  @click="text()" id="btn">Get in touch</button>
-          
+
+        <div class=" txt mx-auto">
+         <h2>Redefine what your future looks like throught Technology.</h2> 
+        </div>
+         
+         <div id="btn">
+         <button  @click="text()" >Get in touch</button>
+        </div>
+       
     </section>
 	</main>
   

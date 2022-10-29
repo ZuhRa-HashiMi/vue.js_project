@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
 	<main>
     <!-- Introduction Section -->
     <section id="intro" class="intro">
@@ -13,13 +14,52 @@
           </p>
     </section>
 	</main>
+=======
+    
+ 
+	<main>
+    <!-- Introduction Section -->
+    <section id="intro" class="intro">
+         <div id="mt">
+            <a href="index.html"><img class="img-fluid" src="../assets/background.png" alt="page logo" /></a>
+        </div> 
+
+        <div class=" txt mx-auto">
+         <h2>Redefine what your future looks like throught Technology.</h2> 
+        </div>
+         
+         <div id="btn" >
+         <button class="btn mt-2"  @click="text()" >Get in touch</button>
+        </div>
+        
+    
+       
+    </section>
+	</main>
+  
+>>>>>>> d5c9c4aeb4c88850d0bc9895cec823c992a7501c
 </template>
 
 <script>
 export default {
   name: "jumBotron",
+<<<<<<< HEAD
 
 };
+=======
+  methods: {
+    text(){
+        // return false
+        alert("Get in touch")   
+     }
+    },
+};
+
+
+
+
+
+>>>>>>> d5c9c4aeb4c88850d0bc9895cec823c992a7501c
 </script>
 <style>
 @import '../assets/style.css';

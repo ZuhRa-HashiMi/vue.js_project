@@ -12,9 +12,11 @@
          <h2>Redefine what your future looks like throught Technology.</h2> 
         </div>
          
-         <div id="btn">
-         <button  @click="text()" >Get in touch</button>
+         <div id="btn" >
+         <button class="btn mt-2"  @click="text()" >Get in touch</button>
         </div>
+        
+    
        
     </section>
 	</main>
@@ -29,7 +31,7 @@ export default {
         // return false
         alert("Get in touch")   
      }
-  },
+    },
 };
 
 

@@ -46,30 +46,31 @@
   #navbar ul li {
     list-style-type: none;
     padding: 20px 10px;
-    border-bottom: solid var(--secondary-color) 3px;
   }
   
   #navbar ul li a {
     text-decoration: none;
-    color: var(--primary-color);
+    color:#6c757d;
+    font-size: 17px;
+    font-weight: 600;
   }
   
   #navbar ul li a:hover {
-    color: var(--secondary-color);
+    color:  #145ac4;
   }
   
   .last-link {
     border: none !important;
   }
-  
-  .focused {
+
+  /* .focused {
     text-align: center;
     margin-top: 40px;
     border: none !important;
     font-size: 18px;
     font-weight: 700;
     box-shadow: 5px 5px 15px var(--primary-color);
-  }
+  } */
   
   .humberger {
     position: fixed;
@@ -99,29 +100,11 @@
     transform: rotate(45deg) translate(-10px, -10px);
   }
 
-  .intro {
-    background-image: url("../assets/desktopbg.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 50px 20px;
-  }
-  
   .intro h2 {
     padding-top: 70px;
     color: var(--secondary-color);
     font-size: 20px;
     font-weight: 400;
-  }
-  
-  .intro h1 {
-    padding-top: 5px;
-    font-family: var(--secondary-font);
-    font-weight: 800;
-    text-transform: uppercase;
-    font-size: 28px;
-    color: var(--secondary-color);
-    padding-bottom: 30px;
-    line-height: 2rem;
   }
   
  .txt h2 {
@@ -137,33 +120,6 @@
     grid-template-columns: repeat(2,1fr);
     
   }   
-
-  
-  .intro .bio {
-    border: solid 3px #fff;
-    background-color: #fff;
-    color: var(--primary-font);
-    padding: 12px;
-    font-size: 15px;
-    line-height: 1.2rem;
-  }
-  
-  .intro .time {
-    font-family: var(--secondary-font);
-    font-weight: 800;
-    font-size: 20px;
-    text-transform: uppercase;
-    padding-top: 30px;
-  }
-  
-  .intro .address {
-    padding-top: 20px;
-    font-family: var(--secondary-font);
-    font-size: 13px;
-    padding-bottom: 70px;
-  }
-
-  
 /* Main Program Section */
 #main-program {
     background-image: url("../assets/pattern_bg.png");
@@ -343,24 +299,6 @@
     color: #4c4c4c;
     font: 500 16px/1.25 din-round,sans-serif;
   }
-
-  .home-page {
-    display: none;
-  }
-
-  .focused {
-    padding: 10px !important;
-    margin: 0;
-    box-shadow: none;
-    border: solid 3px var(--secondary-color) !important;
-    border: solid 3px  #0d6efd !important;
-  }
-
-  .focused:hover {
-    border: none;
-    color: var(--tertiary-color);
-  }
-
   .humberger {
     display: none;
   }
@@ -372,39 +310,38 @@
   
   /* Introduction Section */
   .intro {
-    height: auto;
+    background-color: #f5fafd;
     height:96vh;
     padding: 30px 120px;
   }
 
-  .intro h2 {
-    padding-top: 50px;
+  .txt h2 {
+    color: #4c4c4c;
+    padding-top: 0;
     font-size: 34px;
   }
-
-  .intro h1 {
-    width: 50%;
-    font-size: 56px;
-    line-height: 3.5rem;
+  #btn{
+    width: 10%;
+    background-color:#3f4f5f;
+    color: white;
+    position:flex;
+    top:5%;
+    left: 5%;
+    text-align: center;
+    float: left;
+    
+  
   }
-
-  .intro .bio {
-    width: 43%;
-    font-size: 15px;
-    line-height: 1.5rem;
-  }
-
-  .intro .time {
-    font-weight: 800;
-    font-size: 28px;
-  }
-
-  .intro .address {
-    padding-top: 20px;
-    font-family: var(--secondary-font);
-    font-size: 18px;
-    padding-bottom: 70px;
-  }
+   #mt{
+    float: none;
+    position:relative;
+    top:10%;
+    left:68%;
+    right: 1%;
+    max-width:40%;
+    max-height: 50%;
+  } 
+  
 
     
   /* Main Program Section */
@@ -502,11 +439,6 @@
     color: var(--primary-color);
     font-size: 15px;
   }
-    
-
-}
-
-@media screen and (min-width: 769px) and (max-width: 1350px) {
 
   .main-program {
     display: grid;
@@ -521,29 +453,6 @@
     column-gap: 4px;
   }
 
-}
-#btn{
-  width: 15%;
-  height: 10%;
-  background-color:#326293;
-  color:#fff;
-  position:flex;
-  top:5%;
-  left: 5%;
-  text-align: center;
-  float: left;
-  
-
-}
- #mt{
-  float: none;
-  position:relative;
-  top:30%;
-  left:68%;
-  right: 1%;
-  max-width:40%;
-  max-height: 50%;
-} 
 
 .icon-stack-xl {
   height: 5rem;
@@ -642,8 +551,6 @@
   width: 30px;
   border-top: 3px solid rgb(0 169 211);
 }
-.txt{
-  color: #b3a6a6;
 }
 
 /* only for adding  */

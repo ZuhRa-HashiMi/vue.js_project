@@ -14,12 +14,11 @@
         </div>
         <ul>
             <li class="links home-page"><a href="index.html">Home</a></li>
-            <li class="links"><a href="about.html">About</a></li>
             <li class="links"><a href="#">Services</a></li>
             <li class="links"><a href="#">Partners</a></li>
             <li class="links"><a href="#">Insights</a></li>
             <li class="links last-link"><a href="#">Creer</a></li>
-            <li class="links focused"><a href="#">About Us</a></li>
+            <li class="links"><a href="#">About Us</a></li>
         </ul>
     </div>
     </div>

@@ -12,6 +12,8 @@
     margin: 0;
     box-sizing: border-box;
     font-family: var(--secondary-font);
+    /* color: #4c4c4c;
+    font: 500 16px/1.25 din-round,sans-serif; */
   }
   
   /* Navbar Section */
@@ -22,7 +24,7 @@
     width: 70%;
     height: 100vh;
     background-color: var(--tertiary-color);
-    box-shadow: 2px 20px 15px var(--primary-color);
+    box-shadow:1px 8px 20px #adb5bd;;
     transform: translateX(-102%);
     transition: transform 0.5s ease-in;
   }
@@ -98,7 +100,6 @@
   }
 
   .intro {
-<<<<<<< HEAD
     background-image: url("../assets/desktopbg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -122,13 +123,6 @@
     padding-bottom: 30px;
     line-height: 2rem;
   }
-=======
-    /* background-image: url("../assets/desktopbg.jpg"); */
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 50px 20px;
-    background-color:#6699CC;
-  }
   
  .txt h2 {
     /* padding-top:100px;  */
@@ -142,12 +136,8 @@
     display: grid;
     grid-template-columns: repeat(2,1fr);
     
-    
-    
   }   
-  
-  
->>>>>>> d5c9c4aeb4c88850d0bc9895cec823c992a7501c
+
   
   .intro .bio {
     border: solid 3px #fff;
@@ -176,13 +166,10 @@
   
 /* Main Program Section */
 #main-program {
-<<<<<<< HEAD
     background-image: url("../assets/pattern_bg.png");
     background-color: var(--primary-color);
-=======
     /* background-image: url("../assets/pattern_bg.png"); */
     background-color: #326293;
->>>>>>> d5c9c4aeb4c88850d0bc9895cec823c992a7501c
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -199,11 +186,8 @@
   }
   
   #main-program hr {
-<<<<<<< HEAD
     width: 100px;
-=======
     width: 200px;
->>>>>>> d5c9c4aeb4c88850d0bc9895cec823c992a7501c
     background-color: var(--secondary-color);
     height: 5px;
     border: none;
@@ -243,12 +227,6 @@
     font-size: 12px;
   }
 
-
-<<<<<<< HEAD
-
-
-=======
->>>>>>> d5c9c4aeb4c88850d0bc9895cec823c992a7501c
   #main-program .desk {
     display: none;
     cursor: pointer;
@@ -264,9 +242,6 @@
     font-size: 12px;
     cursor: pointer;
   }
-<<<<<<< HEAD
-  
-=======
 
   #footer {
     background-color: white;
@@ -319,9 +294,6 @@
     font-size: 16px;
   }
 
->>>>>>> d5c9c4aeb4c88850d0bc9895cec823c992a7501c
-  
-
   
 /* Desktop Version */
 @media screen and (min-width: 768px) {
@@ -336,33 +308,23 @@
     
   /* Navbar */
   #navbar {
-<<<<<<< HEAD
     position: static;
     display: flex;
     transform: translateX(0);
     z-index: 99;
-=======
     position:fixed;
     display: flex;
-    transform: translateX(0);
     z-index: 9999;
->>>>>>> d5c9c4aeb4c88850d0bc9895cec823c992a7501c
     width: 100%;
     height: 70px;
     background-color: #fff;
     flex-direction: row;
     justify-content: space-between;
-    box-shadow: none;
     padding: 0 10%;
     align-items: center;
-    box-shadow: #272a31 3px;
-<<<<<<< HEAD
-=======
     top:0;
     left:0;
     right:0;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2); 
->>>>>>> d5c9c4aeb4c88850d0bc9895cec823c992a7501c
   }
 
   #navbar ul {
@@ -376,8 +338,10 @@
   #navbar ul li {
     border: none;
     padding: 0;
-    font-size: 12px;
-    font-weight: 600;
+    font-size: 15px;
+    font-weight: 800;
+    color: #4c4c4c;
+    font: 500 16px/1.25 din-round,sans-serif;
   }
 
   .home-page {
@@ -388,11 +352,8 @@
     padding: 10px !important;
     margin: 0;
     box-shadow: none;
-<<<<<<< HEAD
     border: solid 3px var(--secondary-color) !important;
-=======
     border: solid 3px  #0d6efd !important;
->>>>>>> d5c9c4aeb4c88850d0bc9895cec823c992a7501c
   }
 
   .focused:hover {
@@ -411,11 +372,8 @@
   
   /* Introduction Section */
   .intro {
-<<<<<<< HEAD
     height: auto;
-=======
     height:96vh;
->>>>>>> d5c9c4aeb4c88850d0bc9895cec823c992a7501c
     padding: 30px 120px;
   }
 
@@ -504,9 +462,6 @@
   #main-program .mob {
     display: none;
   }
-<<<<<<< HEAD
-=======
-
   #footer {
     padding: 20px 60px 50px;
   }
@@ -547,30 +502,18 @@
     color: var(--primary-color);
     font-size: 15px;
   }
->>>>>>> d5c9c4aeb4c88850d0bc9895cec823c992a7501c
     
 
 }
 
-<<<<<<< HEAD
 @media screen and (min-width: 769px) and (max-width: 1350px) {
 
   .main-program {
-=======
-
-@media screen and (min-width: 769px) and (max-width: 1350px) {
-
-  .main-program {
-    
->>>>>>> d5c9c4aeb4c88850d0bc9895cec823c992a7501c
     display: grid;
     grid-template-columns:1fr  ;
     column-gap: 4px;
   }
 
-<<<<<<< HEAD
-}
-=======
   
   .footer {
     display: grid;
@@ -705,4 +648,3 @@
 
 /* only for adding  */
 /* changin  */
->>>>>>> d5c9c4aeb4c88850d0bc9895cec823c992a7501c

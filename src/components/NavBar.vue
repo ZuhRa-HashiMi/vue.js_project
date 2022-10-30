@@ -6,11 +6,9 @@
         <div class="line2"></div>
         <div class="line3"></div>
     </div>
-<<<<<<< HEAD
     <div id="navbar" class="navbar">
-=======
+
     <div id="navbar" class="navbar" >
->>>>>>> d5c9c4aeb4c88850d0bc9895cec823c992a7501c
         <div class="logo">
             <a href="index.html"><img src="../assets/shift.png" alt="page logo" /></a>
         </div>
@@ -24,6 +22,7 @@
             <li class="links focused"><a href="#">About Us</a></li>
         </ul>
     </div>
+    </div>
 </header>
 </template>
 
@@ -33,10 +32,7 @@ export default {
     name: "NavBar"
 }
 
-<<<<<<< HEAD
-=======
 
->>>>>>> d5c9c4aeb4c88850d0bc9895cec823c992a7501c
 </script>
 
 <style>

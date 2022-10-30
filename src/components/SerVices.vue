@@ -2,17 +2,18 @@
 
 <!-- Main Program Section -->
 
-<div class="services pd">
-    
-    <div class="text-wrap" style="text-align:center; vertical-align: middle; padding: 8px 18px; color:#7499f1">
-        <h4>Creating and deploying software that ensure growth in business.</h4>
-    </div>
+<div class="services">
     
     <div class="container">
-      <h3 class="title">Services</h3>
+      <div class="text-wrap">
+      <h3>Services</h3>
+    </div>
+      <div class="text-wrap">
+        <h4>Creating and deploying software that ensure growth in business.</h4>
+    </div>
       <div class="row text-center">
         <div class="col-md-3">
-          <div class="square"><i class="fas fa-code"></i></div>
+          <div><i class="fas fa-globe"></i></div>
           <div class="serv">
             <h5>Business Applications</h5>
             <p>Are you looking to connect your people, automate processes, or improve productivity to enable growth and competitive advantage? We’ve got you covered.
@@ -32,16 +33,18 @@
                 </ol></p>
           </div>
         </div>
+        </div>
+       
         <div class="col-md-3">
           <div class="serv">
-            <div class="square"><i class="fas fa-cogs"></i></div>
+            <div><i class="fas fa-cogs"></i></div>
             <h5>Web Development</h5>
             <p>State-of-the-art web applications.
                 We’re experts at building solid, reliable, and fast web applications from the ground up.</p>
           </div>
         </div>
         <div class="col-md-3">
-          <div class="square"><i class="fas fa-globe"></i></div>
+          <div><i class="fas fa-globe"></i></div>
           <div class="serv">
             <h5>Mobile App Development</h5>
             <p>Delightful iOS and Android apps.
@@ -64,7 +67,7 @@
           </div>
         </div>
         <div class="col-md-3">
-          <div class="square"><i class="fas fa-user-shield"></i></div>
+          <div><i class="fas fa-user-shield"></i></div>
           <div class="serv">
             <h5>Product Design and Management</h5>
             <p>Our expertise in Product Design & Product Management is backed by in-depth research and understanding of your industry.
@@ -92,7 +95,6 @@
         </div>
       </div>
     </div>
-  </div>
 </template>
 
 <script>

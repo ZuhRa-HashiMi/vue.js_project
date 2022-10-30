@@ -120,85 +120,14 @@
     grid-template-columns: repeat(2,1fr);
     
   }   
-/* Main Program Section */
-#main-program {
-    background-image: url("../assets/pattern_bg.png");
-    background-color: var(--primary-color);
-    /* background-image: url("../assets/pattern_bg.png"); */
-    background-color: #326293;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-  }
-  
-  #main-program .title {
-    font-size: 25px;
-    font-weight: 700;
-    text-align: center;
-    color: var(--tertiary-color);
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-  
-  #main-program hr {
-    width: 100px;
-    width: 200px;
-    background-color: var(--secondary-color);
-    height: 5px;
-    border: none;
-  }
-  
-  .main-program {
-    display: grid;
-    grid-template-columns: 1fr;
-    row-gap: 30px;
-    padding-top: 40px;
-    padding-bottom: 20px;
-  }
-  
-  .main-program div {
-    gap: 20px;
-    background-color: rgb(204 204 204 / 10%);
-    align-items: center;
-    padding: 20px 70px;
-  }
 
-  .main-program h3 {
-    color: var(--secondary-color);
-    flex: 1.2 1 0;
-    font-size: 12px;
-    font-weight: 800;
+  .text-wrap{
+    text-align:center;
+    vertical-align: middle;
+    padding: 8px 18px; 
+    color:#7499f1
   }
-  
-  .main-program p {
-    color: var(--tertiary-color);
-    flex: 3 1 0;
-    font-size: 12px;
-  }
-
-  .main-program ol {
-    color: var(--tertiary-color);
-    flex: 3 1 0;
-    font-size: 12px;
-  }
-
-  #main-program .desk {
-    display: none;
-    cursor: pointer;
-  }
-  
-  #main-program .mob {
-    padding: 20px;
-    text-align: center;
-    color: var(--tertiary-color);
-    background-color: var(--secondary-color);
-    margin: 20px 0;
-    font-weight: 600;
-    font-size: 12px;
-    cursor: pointer;
-  }
-
+/* 
   #footer {
     background-color: white;
     display: flex;
@@ -248,7 +177,7 @@
     color: var(--primary-color);
     flex: 3 1 0;
     font-size: 16px;
-  }
+  } */
 
   
 /* Desktop Version */
@@ -329,8 +258,6 @@
     left: 5%;
     text-align: center;
     float: left;
-    
-  
   }
    #mt{
     float: none;
@@ -341,123 +268,7 @@
     max-width:40%;
     max-height: 50%;
   } 
-  
-  /* Main Program Section */
-  #main-program {
-    padding: 20px 60px 50px;
-  }
-
-  #main-program .title {
-    font-size: 20px;
-    font-weight: 800;
-    padding-top: 20px;
-    padding-bottom: 10px;
-  }
-
-  .main-program {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 4px;
-  }
-
-  .main-program div {
-    display: grid;
-    align-items: start;
-    justify-content: center;
-    justify-items: center; 
-    grid-template-rows: 50px 50px 50px 20px;
-  }
-
-  .main-program div:hover {
-    border: solid 3px var(--tertiary-color);
-  }
-
-  .main-program h3 {
-    color: var(--secondary-color);
-    flex: 1.2 1 0;
-    font-size: 12px;
-    font-weight: 800;
-  }
-
-  .main-program p {
-    color: var(--tertiary-color);
-    font-size: 12px;
-  }
-
-  #main-program .desk {
-    display: block;
-    padding-top: 20px;
-    text-align: center;
-    color: var(--tertiary-color);
-    border-bottom: solid 2px var(--tertiary-color);
-    font-weight: 600;
-    font-size: 14px;
-  }
-
-  #main-program .mob {
-    display: none;
-  }
-  #footer {
-    padding: 20px 60px 50px;
-  }
-  
-  #footer .title {
-    font-size: 30px;
-    font-weight: 800;
-    padding-top: 15px;
-    padding-bottom: 10px;
-  }
-  
-  .footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    column-gap: 4px;
-  }
-  
-  .footer div {
-    display: grid;
-    align-items: start;
-    justify-content: center;
-    justify-items: center; 
-    grid-template-rows: 50px 50px 50px 20px;
-  }
-  
-  .footer div:hover {
-    border: solid 5px var(--primary-color);
-  }
-  
-  .footer h3 {
-    color: var(--primary-color);
-    flex: 1.2 1 0;
-    font-size: 16px;
-    font-weight: 800;
-  }
-  
-  .footer p {
-    color: var(--primary-color);
-    font-size: 15px;
-  }
-
-  .main-program {
-    display: grid;
-    grid-template-columns:1fr  ;
-    column-gap: 4px;
-  }
-
-  
-  .footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 4px;
-  }
-
-
-.icon-stack-xl {
-  height: 5rem;
-  width: 5rem;
-  font-size: 1.75rem;
-}
-
+ 
 /* your CSS goes here*/
 .title {color: #fa9746;margin-bottom: 30px;position: relative;}
 .title::before {
@@ -485,69 +296,23 @@
   content: '';
 }
  /* services */
-.services {
+ .services {
   color: black;
   background-color:#d3d3d3;
-    padding:40px;
+  padding:40px;
   position: relative;
 }
-.services .square {
-  height: 100px;
-  width: 100px;
-  margin: 30px auto 40px;
-  position: relative;
-  border-radius: 15px;
-  transform: rotate(45deg);
-  padding: 10px;
-  background-color:#7499f1;
-  box-shadow: 0px 0px 27px 0px #ccc;
-  border: 2px dotted #eaf3fa;
+
+
+.services .serv h5 {
+  color: #fa9746;
 }
-.square i {
-  transform: rotate(315deg);
-  display: block;
-  color: #eaf3fa;
-  font-size: 40px;
-  padding-top: 17px;
-  padding-right: 14px;
+.services .serv p {
+  color: #777;
 }
-.services .square::before {
-  position: absolute;
-  left: -10px;
-  top: 0;
-  width: 1px;
-  height: 100%;
-  background-color: #fa9746;
-  content: '';
-}
-.services .square::after {
-  position: absolute;
-  left: 50px;
-  top: 66px;
-  width: 1px;
-  height: 88%;
-  background-color:#fa9746;
-  content: '';
-  transform: rotate(90deg);
-}
-.services .serv .num
- {
-   width: 60px;
-   height: 60px;
-   background-color: #7499f1;
-   box-shadow: 0px 0px 15px 0px #00a9d3;
-   margin: -38px auto 15px auto;
-   border-radius: 50%;
-   color: #fff;
-   font-size: 30px;
-    padding-top: 7px;
-    border: 1px dashed;
-  }
-.services .serv h5 {color: #fa9746;}
-.services .serv p {color: #777;}
 .services .serv hr {
   width: 30px;
-  border-top: 3px solid rgb(0 169 211);
+  border-top: 3px solid rgb(0 169 211); 
 }
 }
 

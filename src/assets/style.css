@@ -335,15 +335,13 @@
    #mt{
     float: none;
     position:relative;
-    top:10%;
-    left:68%;
+    top:22%;
+    left:60%;
     right: 1%;
     max-width:40%;
     max-height: 50%;
   } 
   
-
-    
   /* Main Program Section */
   #main-program {
     padding: 20px 60px 50px;

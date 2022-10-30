@@ -121,12 +121,6 @@
     
   }   
 
-  .text-wrap{
-    text-align:center;
-    vertical-align: middle;
-    padding: 8px 18px; 
-    color:#7499f1
-  }
 /* 
   #footer {
     background-color: white;
@@ -268,9 +262,64 @@
     max-width:40%;
     max-height: 50%;
   } 
- 
-/* your CSS goes here*/
-.title {color: #fa9746;margin-bottom: 30px;position: relative;}
+   /* services */
+
+   
+ .services {
+  background-color: #6c757d;;
+  padding:60px;
+  position: relative;
+}
+.services h3 {
+  vertical-align: middle;
+  padding: 8px 18px; 
+  color: black;
+  text-align:center;
+  font-weight: 600;
+  font-size: 38px;
+
+}
+.services h4 {
+  vertical-align: middle;
+  padding: 8px 18px; 
+  color: black;
+  text-align:center;
+  font-weight: 600;
+  font-size: 30px;
+
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.card{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex: 1 1 20rem;
+  background: #fff;
+  box-shadow: 0 0 20px black;
+  padding: 10px 30px;
+  align-self: normal;
+}
+
+.card h5{
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+.card p{
+  margin-bottom: 10px;
+}
+ /* footer section */
+.title {
+  color: #fa9746;
+  margin-bottom: 30px;
+  position: relative;
+}
 .title::before {
   position: absolute;
   left: -29px;
@@ -295,25 +344,7 @@
   border-radius: 4px;
   content: '';
 }
- /* services */
- .services {
-  color: black;
-  background-color:#d3d3d3;
-  padding:40px;
-  position: relative;
-}
 
-
-.services .serv h5 {
-  color: #fa9746;
-}
-.services .serv p {
-  color: #777;
-}
-.services .serv hr {
-  width: 30px;
-  border-top: 3px solid rgb(0 169 211); 
-}
 }
 
 /* only for adding  */

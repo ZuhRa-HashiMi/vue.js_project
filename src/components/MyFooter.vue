@@ -2,7 +2,7 @@
 
 <div class="  mx-6 my-6">
     <!-- Footer -->
-    <footer class="text-center text-lg-start text-white p-2" style="background-color:#055C9D">
+    <footer class="text-center text-lg-start text-black p-5" style= "background-color:  #6c757d;">
         <!-- Grid container -->
         <div class=" p-4 pb-0 ">
             <!-- Section: Links -->
@@ -19,8 +19,13 @@
                 <!--Grid row-->
                 <div class="row">
                     <!-- Grid column -->
+                  
                     <div class="col-md-3 col-lg-3 col-xl-3 mx-6 mt-5 py-5 ">
-                        <h6 class="text-uppercase mb-4 font-weight-bold txt">
+                       
+                        <h6 class="text-uppercase mb-4 txt footer-title">
+                            <a href="#"><div class="image">
+                             <i class="fa-solid fa-bars-progress fa-2x"></i></div></a>
+                            
                             Adaptive Process
 
                         </h6>
@@ -34,7 +39,10 @@
 
                     <!-- Grid column -->
                     <div class="col-md-3 col-lg-3 col-xl-3 mx-6 mt-5 py-5 ">
-                        <h6 class="text-uppercase mb-4 font-weight-bold txt ">Collaborative & Transparent</h6>
+                        <h6 class="text-uppercase mb-4 txt footer-title ">
+                            <a href="#"><div class="image">
+                          <i class="fa-solid fa-bars-progress fa-2x"></i></div></a>Collaborative & Transparent</h6>
+    
                         <p> have a passion for finding solutions together with our clients; not just for them.
                         </p>
                     </div>
@@ -44,18 +52,24 @@
 
                     <!-- Grid column -->
                     <div class="col-md-3 col-lg-3 col-xl-3 mx-6 mt-5 py-5 ">
-                        <h6 class="text-uppercase mb-4 font-weight-bold txt">
+                        <h6 class="text-uppercase mb-4 txt footer-title">
+                            <a href="#"><div class="image">
+                       <i class="fa-solid fa-bars-progress fa-2x"></i></div></a>
                             Quality Obsession
                         </h6>
+                       
                         <p>
                             We get it right the first through focus and attention to details.
                         </p>
                     </div>
                     <div class="col-md-3 col-lg-3 col-xl-3 mx-6 mt-5 py-5 ">
-                        <h6 class="text-uppercase mb-4 font-weight-bold txt">
+                        <h6 class="text-uppercase mb-4 txt footer-title">
+                            <a href="#"><div class="image">
+          <i class="fa-solid fa-bars-progress fa-2x"></i></div></a>
                             Ownership Mentality
 
                         </h6>
+                   
                         <p>
                             Every project is treated with trust, a sense of ownership, and drive.
                         </p>
@@ -72,43 +86,6 @@
 
             <hr class="my-3">
 
-            <!-- Section: Copyright -->
-            <section class="p-3 pt-0">
-                <div class="row d-flex align-items-center">
-                    <!-- Grid column -->
-                    <div class="col-md-7 col-lg-8 text-center text-md-start">
-                        <!-- Copyright -->
-
-                        <!-- Copyright -->
-                    </div>
-                    <!-- Grid column -->
-
-                    <!-- Grid column -->
-                    <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
-                        <!-- Facebook -->
-                        <a class="btn btn-outline-light btn-floating 
-                 text-white" role="button">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
-                                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
-                            </svg>
-                        </a>
-
-                        <!-- Twitter -->
-                        <a class="btn btn-outline-light btn-floating 
-                 text-white" role="button"><i class="fab fa-twitter"></i></a>
-
-                        <!-- Google -->
-                        <a class="btn btn-outline-light btn-floating 
-                 text-white" role="button"><i class="fab fa-google"></i></a>
-
-                        <!-- Instagram -->
-                        <a class="btn btn-outline-light btn-floating 
-                 text-white" role="button"><i class="fab fa-instagram"></i></a>
-                    </div>
-                    <!-- Grid column -->
-                </div>
-            </section>
-            <!-- Section: Copyright -->
         </div>
         <!-- Grid container -->
     </footer>

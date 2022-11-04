@@ -7,7 +7,9 @@
         <h4>Creating and deploying software that ensure growth in business.</h4>
       <div class="row">
         <div class="card">
-          <div><i class="fas fa-globe fa-5x"></i></div>
+          <a href="#"><div class="first-icon">
+          <i class="fa-sharp fa-solid fa-business-time fa-2x"></i></div></a>
+
           <div class="serv">
             <h5>Business Applications</h5>
             <p>Are you looking to connect your people, automate processes, or improve productivity to enable growth and competitive advantage? We’ve got you covered.
@@ -29,15 +31,19 @@
         </div>
        
         <div class="card">
-          <div class="serv">
-            <div><i class="fas fa-cogs fa-5x"></i></div>
+          <a href="#"><div class="image">
+            <i class="fa-solid fa-code fa-2x "></i></div></a>
+            <div class="serv">
             <h5>Web Development</h5>
             <p>State-of-the-art web applications.
-                We’re experts at building solid, reliable, and fast web applications from the ground up.</p>
+                We’re experts at building solid, reliable, and fast web applications from the ground up.
+              </p>
           </div>
         </div>
+
         <div class="card">
-          <div><i class="fas fa-globe fa-5x"></i></div>
+          <a href="#"><div class="image">
+        <i class="fa-solid fa-mobile-screen-button fa-2x"></i></div></a>
           <div class="serv">
             <h5>Mobile App Development</h5>
             <p>Delightful iOS and Android apps.
@@ -60,11 +66,12 @@
           </div>
         </div>
         <div class="card">
-          <div><i class="fas fa-user-shield fa-5x"></i></div>
+          <a href="#"><div class="image">
+          <i class="fa-solid fa-bars-progress fa-2x"></i></div></a>
           <div class="serv">
             <h5>Product Design and Management</h5>
             <p>Our expertise in Product Design & Product Management is backed by in-depth research and understanding of your industry.
-                That’s how we deliver beautiful and functional products.  </p>
+                That’s how we deliver beautiful and functional products. 
 
                 <ol>
                     <li>
@@ -82,7 +89,7 @@
                     <li>
                         Research
                     </li>
-                </ol>
+                </ol> </p>
          
           </div>
         </div>

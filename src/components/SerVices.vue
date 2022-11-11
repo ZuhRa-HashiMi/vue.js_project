@@ -3,7 +3,7 @@
 <div class="services">
     
     <div class="container">
-      <h3>Services</h3>>
+      <h3>Services</h3>
         <h4>Creating and deploying software that ensure growth in business.</h4>
       <div class="row">
         <div class="card">

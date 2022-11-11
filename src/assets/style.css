@@ -53,10 +53,13 @@
     color:#6c757d;
     font-size: 17px;
     font-weight: 600;
+    font-family: 'Roboto', sans-serif, Myrid, "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
   
   #navbar ul li a:hover {
     color:  #145ac4;
+    text-decoration: underline 2px;
+    font-family: 'Roboto', sans-serif, Myrid, "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
   
   .last-link {
@@ -105,6 +108,7 @@
     color: var(--secondary-color);
     font-size: 20px;
     font-weight: 400;
+    font-family: 'Roboto', sans-serif, Myrid, "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
   
  .txt h2 {
@@ -112,12 +116,13 @@
     color: #326293;
     font-size: 20px;
     font-weight: 400px;
-     position: relative;
+    position: relative;
     top: 4%;
     left: 0%;
     margin-bottom: 4%;
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    font-family: 'Roboto', sans-serif, Myrid, "Helvetica Neue", Helvetica, Arial, sans-serif;
     
   }   
 
@@ -233,38 +238,54 @@
   
   /* Introduction Section */
   .intro {
-    background-color: #2799b7;
+    background-color: #004c99;
     height:96vh;
     padding: 30px 120px;
   }
 
   .txt h2 {
-    color: #4c4c4c;
+    color: white;
     padding-top: 0;
     font-size: 34px;
+    font-family: 'Roboto', sans-serif, Myrid, "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
   .footer-title {
     font-weight: 600;
     font-size: 15px;
+    font-family: 'Roboto', sans-serif, Myrid, "Helvetica Neue", Helvetica, Arial, sans-serif;
   } 
-  #btn{
+  .button{
     width: 10%;
-    background-color: #4c4c4c;
-    color: white;
+    background-color: white;
+    color: #003366;
     position:flex;
-    top:5%;
-    left: 5%;
+    font-size: 20px;
+    padding: 10px;
     text-align: center;
     float: left;
+    border: none; 
+    font-family: 'Roboto', sans-serif, Myrid, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  .button:hover {
+    width: 10%;
+    background-color:  #003366; ;
+    color:white;
+    font-family: 'Roboto', sans-serif, Myrid, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position:flex;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    float: left;
+    border: none;
+    box-shadow: 0 0 10px whitesmoke;
   }
    #mt{
     float: none;
     position:relative;
-    top:22%;
+    top:33%;
     left:60%;
     right: 1%;
     max-width:40%;
-    max-height: 50%;
   } 
    /* services */
 
@@ -275,23 +296,24 @@
   position: relative;
 }
 .services h3 {
-    padding: 2px 18px; 
+    padding: 20px 18px; 
+    margin-bottom: 0;
     text-align:center;
     font-family: 'Roboto', sans-serif, Myrid, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 300;
-    line-height: 1.1;
-    color: inherit;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #003366;
 
 }
 .services h4 {
   vertical-align: middle;
   padding: 8px 18px; 
-  color: #6f6f6f;
+  color: #003366;
   text-align:center;
-  margin-bottom: 10px;
-  font-size: 17px;
-  font-weight: 300;
+  margin-bottom: 40px;
+  font-weight: 400;
   line-height: 1.4;
+  font-family: 'Roboto', sans-serif, Myrid, "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 }
 
@@ -306,7 +328,7 @@
   align-items: center;
   flex-direction: column;
   flex: 1 1 20rem;
-  box-shadow: 0 0 10px black; 
+  box-shadow: 0 0  5px  gray; 
   padding: 15px 0 10px 0;
   align-self: normal;
   margin-left: 9px;
@@ -320,8 +342,8 @@
       height: 88px;
       border: 8px solid #6c757d;;
       line-height: 88px;
-      border-radius: 50%;
-      background: #2799b7;
+      border-radius: 5%;
+      background:  #003366;
       vertical-align: middle;
 }
 .first-icon:hover{
@@ -340,15 +362,15 @@
 .image {
   position: relative;
   z-index: 2;
-  margin: 1px;
+  margin:auto;
   width: 88px;
   height: 88px;
-  border: 8px solid #6c757d;
+  border: 8px solid #6c757d; 
   line-height: 88px;
-  border-radius: 50%;
-  background: #2799b7;
+  border-radius: 5%;
+  background:  #003366;
   vertical-align: middle;
-  padding-top: 10px;
+  padding-top: 0;
 }
 .image:hover{
   position: relative;
@@ -379,15 +401,18 @@ i:not(.fa-mobile-screen-button)  {
   font-size: 1.3rem;
   text-transform: uppercase;
   margin: 10px 0;
+  font-family: 'Roboto', sans-serif, Myrid, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .card p{
   margin-bottom: 10px;
+  font-family: 'Roboto', sans-serif, Myrid, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
  /* footer section */
 .title {
   color: black;
   margin-bottom: 30px;
   position: relative;
+  font-family: 'Roboto', sans-serif, Myrid, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 }

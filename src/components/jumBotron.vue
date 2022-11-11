@@ -10,7 +10,7 @@
         <div class=" txt">
          <h2>Redefine what your future looks like throught Technology.</h2> 
          <div id="btn" >
-         <button class="btn mt-2"  @click="text()" >Get in touch</button>
+         <button class="button mt-2"  @click="text()" >Get in touch</button>
         </div>
         </div>
          

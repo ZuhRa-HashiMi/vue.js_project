@@ -3,6 +3,8 @@
     <NavBar />
     <JumBotron />
     <SerVices />
+    <ContactUs />
+
     <MyFooter />
 </div>
 </template>
@@ -12,6 +14,7 @@
 import NavBar from './components/NavBar.vue';
 import JumBotron from './components/jumBotron.vue';
 import SerVices from './components/SerVices.vue';
+import ContactUs from './components/ContactUs.vue';
 import MyFooter from './components/MyFooter.vue';
 export default {
     name: "App",
@@ -19,6 +22,7 @@ export default {
     NavBar,
     JumBotron,
     SerVices,
+    ContactUs,
     MyFooter
 },
 };

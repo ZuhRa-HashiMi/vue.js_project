@@ -14,10 +14,10 @@
         </div>
         <ul>
             <li class="links home-page"><a href="index.html">Home</a></li>
-            <li class="links"><a href="#">Services</a></li>
-            <li class="links"><a href="#">Partners</a></li>
+            <li class="links"><a href="#services">Services</a></li>
+            <li class="links"><a href="#partner">Partners</a></li>
             <li class="links"><a href="#">Insights</a></li>
-            <li class="links last-link"><a href="#">Creer</a></li>
+            <li class="links last-link"><a href="#">Career</a></li>
             <li class="links"><a href="#">About Us</a></li>
         </ul>
     </div>

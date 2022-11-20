@@ -1,12 +1,12 @@
 <template>
 
-<div class="services">
+<div class="services" id="services">
     
     <div class="container">
       <h3>Services</h3>
         <h4>Creating and deploying software that ensure growth in business.</h4>
       <div class="row">
-        <div class="card">
+        <div class="cards">
           <a href="#"><div class="first-icon">
           <i class="fa-sharp fa-solid fa-business-time fa-2x"></i></div></a>
 
@@ -30,7 +30,7 @@
           </div>
         </div>
        
-        <div class="card">
+        <div class="cards">
           <a href="#"><div class="image">
             <i class="fa-solid fa-code fa-2x "></i></div></a>
             <div class="serv">
@@ -41,7 +41,7 @@
           </div>
         </div>
 
-        <div class="card">
+        <div class="cards">
           <a href="#"><div class="image">
         <i class="fa-solid fa-mobile-screen-button fa-2x"></i></div></a>
           <div class="serv">
@@ -65,7 +65,7 @@
                 </ol></p>
           </div>
         </div>
-        <div class="card">
+        <div class="cards">
           <a href="#"><div class="image">
           <i class="fa-solid fa-bars-progress fa-2x"></i></div></a>
           <div class="serv">

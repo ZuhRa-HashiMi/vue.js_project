@@ -58,7 +58,7 @@
         <div class="media">
         
           <a href="#"> <li><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></li></a>
-           <a href="#"><li><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></li></a>
+           <a href="#"><li><i class="fa-brands fa-github fa-2x" aria-hidden="true"></i></li></a>
            <a href="#"><li><i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i></li></a>
             <a href="#"><li><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></li></a>
         </div>
@@ -78,7 +78,7 @@ export default {
 <style>
 
 .contactus {
-    background-color: #004c99;
+    background-color: #003366;
     width: 100%;
     height: 100vh;
     background-size: 100% 110vh;
@@ -168,8 +168,9 @@ header p{
 .form .contact-form input ~ span{
     position: absolute;
     left: 20px;
-    transition: 0.9s ease-in-out;
+    transition: 0.10s ease-in-out;
     margin-top: 10px;
+    color: white;
 }
 .form .contact-form input:focus ~span{
     transform: translateY(-20px);
@@ -182,13 +183,15 @@ header p{
     margin: 20px;
     font-size: 17px;
     border-bottom: 2px solid white;
+   
 }
 .form .contact-form textarea ~ span
 {
     position: absolute;
     left: 20px;
     margin-top: 10px;
-    transition: 0.9s ease-in-out;
+    transition: 0.10s ease-in-out;
+    color: white;
 }
 .form .contact-form textarea:focus ~span{
     transform: translateY(-20px);

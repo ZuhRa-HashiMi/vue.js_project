@@ -1,8 +1,8 @@
 <template>
 
-<div class="  mx-6 my-6">
+<div class="  mx-6 my-6" id="partners">
     <!-- Footer -->
-    <footer class="text-center text-lg-start text-black p-5" style= "background-color:  #6c757d;">
+    <footer class="text-center text-lg-start text-black p-5" style= "background-color: gray">
         <!-- Grid container -->
         <div class=" p-4 pb-0 ">
             <!-- Section: Links -->
@@ -10,9 +10,9 @@
                 <div class="row text-center">
                     <div class="col-md-2"></div>
                     <div class="col-12 col-md-8">
-                        <p class="title">Who We Are?</p>
-                        <p class="title">Passionate builders</p>
-                        <p class="title"> We Work tiressly and stay true to our core values</p>
+                        <p class="title_1">Who We Are?</p>
+                        <p class="title_2">Passionate builders. We Work tiressly and stay true to our core values</p>
+
                     </div>
                     <div class="col-md-2"></div>
                 </div>
@@ -24,7 +24,7 @@
                        
                         <h6 class="text-uppercase mb-4 txt footer-title">
                             <a href="#"><div class="image">
-                             <i class="fa-solid fa-bars-progress fa-2x"></i></div></a>
+            <i class="fa-solid fa-code fa-2x "></i></div></a> 
                             
                             Adaptive Process
 
@@ -41,7 +41,7 @@
                     <div class="col-md-3 col-lg-3 col-xl-3 mx-6 mt-5 py-5 ">
                         <h6 class="text-uppercase mb-4 txt footer-title ">
                             <a href="#"><div class="image">
-                          <i class="fa-solid fa-bars-progress fa-2x"></i></div></a>Collaborative & Transparent</h6>
+            <i class="fa-solid fa-code fa-2x "></i></div></a>Collaborative & Transparent</h6>
     
                         <p> have a passion for finding solutions together with our clients; not just for them.
                         </p>
@@ -54,7 +54,7 @@
                     <div class="col-md-3 col-lg-3 col-xl-3 mx-6 mt-5 py-5 ">
                         <h6 class="text-uppercase mb-4 txt footer-title">
                             <a href="#"><div class="image">
-                       <i class="fa-solid fa-bars-progress fa-2x"></i></div></a>
+            <i class="fa-solid fa-code fa-2x "></i></div></a>
                             Quality Obsession
                         </h6>
                        
@@ -65,7 +65,7 @@
                     <div class="col-md-3 col-lg-3 col-xl-3 mx-6 mt-5 py-5 ">
                         <h6 class="text-uppercase mb-4 txt footer-title">
                             <a href="#"><div class="image">
-          <i class="fa-solid fa-bars-progress fa-2x"></i></div></a>
+            <i class="fa-solid fa-code fa-2x "></i></div></a>
                             Ownership Mentality
 
                         </h6>

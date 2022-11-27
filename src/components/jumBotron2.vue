@@ -12,14 +12,6 @@
           we bring specialized experience offering assured leadership as your organization evolves.
          </h2> 
         </div>
-         <div id="btn" >
-         <button class="button"  @click="text()" >Get in touch</button>
-        </div>
-      
-         
-        
-        
-    
        
     </section>
    

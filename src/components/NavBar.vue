@@ -17,7 +17,7 @@
             <li class="links"><a href="#services">Services</a></li>
             <li class="links"><a href="#partner">Partners</a></li>
             <li class="links"><a href="#">Insights</a></li>
-            <li class="links last-link"><a href="#">Career</a></li>
+            <li class="links last-link"><a href="#career">Career</a></li>
             <li class="links"><a href="#">About Us</a></li>
         </ul>
     </div>

@@ -1,17 +1,29 @@
 <template>
-
-<div class=" footer mx-6 my-6" id="partners">
-    <!-- Footer -->
-    <footer class="text-center text-lg-start text-black p-5" style= "background-color: gray">
+    <section class="header__hero">
+         
+        <div class="hero__lead-text">
+         
+         We
+         <br>
+          are:
+        </div>
+        </section>
+        <section>
+        <div class=" footer mx-6 my-6" id="partners">
+        
         <!-- Grid container -->
         <div class=" p-4 pb-0 ">
+          <h2 class="text-start fw-bold mb-4">Passionate builders.</h2>
+          <br>
+          <h2 class="text-start fst-italic fs-4">We Work tiressly and stay true to our core values</h2>
             <!-- Section: Links -->
             <section class="container">
-                <div class="row text-center">
+                <div class="row">
                     <div class="col-md-2"></div>
                     <div class="col-12 col-md-8">
-                        <p class="title_1">Who We Are?</p>
-                        <p class="title_2">Passionate builders. We Work tiressly and stay true to our core values</p>
+                       
+                
+                 
 
                     </div>
                     <div class="col-md-2"></div>
@@ -23,8 +35,8 @@
                     <div class="col-md-3 col-lg-3 col-xl-3 mx-6 mt-5 py-5 ">
                        
                         <h6 class="text-uppercase mb-4 txt footer-title">
-                            <a href="#"><div class="image">
-            <i class="fa-solid fa-code fa-2x "></i></div></a> 
+                          <a href="#"><div class="image image-box-warp w-50 p-3 h-50 mx-auto">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI7vzumYlACPrxi_yzzB5uM51kEotPiQ9DYclc1jvltg&s" class= "img-fluid" alt="logo"></div></a>
                             
                             Adaptive Process
 
@@ -40,8 +52,8 @@
                     <!-- Grid column -->
                     <div class="col-md-3 col-lg-3 col-xl-3 mx-6 mt-5 py-5 ">
                         <h6 class="text-uppercase mb-4 txt footer-title ">
-                            <a href="#"><div class="image">
-            <i class="fa-solid fa-code fa-2x "></i></div></a>Collaborative & Transparent</h6>
+                          <a href="#"><div class="image image-box-warp w-50 p-3 h-50 mx-auto">
+            <img src="https://www.valamis.com/documents/10197/783138/collaborative-learning.png" class= "img-fluid" alt="logo"></div></a>Collaborative & Transparent</h6>
     
                         <p> have a passion for finding solutions together with our clients; not just for them.
                         </p>
@@ -53,8 +65,8 @@
                     <!-- Grid column -->
                     <div class="col-md-3 col-lg-3 col-xl-3 mx-6 mt-5 py-5 ">
                         <h6 class="text-uppercase mb-4 txt footer-title">
-                            <a href="#"><div class="image">
-            <i class="fa-solid fa-code fa-2x "></i></div></a>
+                          <a href="#"><div class="image image-box-warp w-50 p-3 h-50 mx-auto">
+            <img src="https://img.freepik.com/premium-vector/outbound-marketing-business-vector-illustration-with-megaphone-design-attract-customers-offline-online-web-poster_2175-1722.jpg?w=2000" class= "img-fluid" alt="logo"></div></a>
                             Quality Obsession
                         </h6>
                        
@@ -64,8 +76,8 @@
                     </div>
                     <div class="col-md-3 col-lg-3 col-xl-3 mx-6 mt-5 py-5 ">
                         <h6 class="text-uppercase mb-4 txt footer-title">
-                            <a href="#"><div class="image">
-            <i class="fa-solid fa-code fa-2x "></i></div></a>
+                          <a href="#"><div class="image image-box-warp w-50 p-3 h-50 mx-auto">
+            <img src="https://www.recruiter.com//recruiting/wp-content/uploads/2022/05/prioritize-your-employees-mental-health.jpg" class= "img-fluid" alt="logo"></div></a>
                             Ownership Mentality
 
                         </h6>
@@ -88,19 +100,43 @@
 
         </div>
         <!-- Grid container -->
-    </footer>
-    <!-- Footer -->
+
 </div>
-<!-- End of .container -->
+       
+    </section>
 </template>
 
 <script>
 export default {
-    name: 'MyFooter'
+  name: "jumBotron",
+  data() {
+    return {
+        layout: 'contactus'
+    }
+  }
+//   methods: {
+//     text(){
+//         // return false
+//         alert("Get in touch")   
+//      }
+//     },
+};
 
-}
 </script>
-
 <style>
 @import '../assets/style.css';
+
+.header__hero {
+    padding: 10%;
+    color: #fff;
+    text-align: center;
+    background-color: #0f0033;
+}
+
+.hero__lead-text {
+    line-height: 1;
+    font-size: 5.4375rem;
+    font-weight: bold;
+}
+  
 </style>

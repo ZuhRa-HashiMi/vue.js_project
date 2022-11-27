@@ -68,9 +68,10 @@ export default {
   width: 150px;
   cursor: pointer;
 }
+
 .partner_button{
-  padding: 10px 20px; 
-  margin-bottom: 0;
+  padding: 10px 18px; 
+  margin-bottom: 10px;
   text-align:center;
   font-family: 'Roboto', sans-serif, Myrid, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;

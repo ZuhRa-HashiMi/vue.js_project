@@ -1,5 +1,5 @@
 <template>
-  <div class="contactus">
+  <div class="contactus" id="contact">
     <div class="container">
         <header>
             <h1>Contact Us</h1>
@@ -211,7 +211,7 @@ header p{
     margin-top: -5px; 
 }
 .form .contact-form input[type=submit]:hover{
-    background-color: #003366;;
+    background-color: #003366;
     color: white;
     position:flex;
     font-size: 18px;

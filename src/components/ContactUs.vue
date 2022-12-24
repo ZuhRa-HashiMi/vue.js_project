@@ -1,72 +1,72 @@
 <template>
-  <div class="contactus" id="contact">
-    <div class="container">
-        <header>
-            <h1>Contact Us</h1>
-            <p>Let's Tlk about your website or project. Send us a meesage and we will be in touch within one business day.</p>
-        </header>
-        <div class="content">
-            <div class="content-form">
-                <section>
-                    <i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>
-                    <h2>address</h2>
-                    <p>
-                        Kabul<br>
-                        Afghanistan<br>
-                    </p>
-                </section>
 
-                <section>
-                    <i class="fa fa-phone fa-2x" aria-hidden="true"></i>
-                    <h2>Phone</h2>
-                    <p>+93(0)787629719</p>
-                </section>
-
-                <section>
-                    <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
-                    <h2>E-mail</h2>
-                    <p>zuhrahashimi2001@gmail.com</p>
-                </section>
-            </div>
+  <main id="main">
+    <!-- ======= Contact Us Section ======= -->
+    <section id="contact" class="contact contactUs">
+      <div class="container">
+        <div class="section-title">
+            <h2>Contact Us</h2>
         </div>
+        <div class="row justify-content-center">
 
-      <form>
-        <div class="form">
-            <div class="right">
-              <div class="contact-form">
-                  <input type="text" required>
-                  <span>Full Name</span>
-              </div>
-  
-              <div class="contact-form">
-                  <input type="E-mail" required>
-                  <span>E-mail Id</span>
-              </div>
-              <div class="contact-form">
-                  <textarea name="text">
-                    
-                  </textarea>
-                  <span> Type your Message....</span>
-              </div>
-  
-              <div class="contact-form">
-                  <input type="submit" name="submit">
-              </div>
+          <div class="col-lg-10">
+
+            <div class="info-wrap">
+              <div class="row">
+                <div class="col-lg-4 info">
+                    <i class="fa fa-map-marker"></i>
+                  <h4>Location:</h4>
+                  <p>Kabul, Afghanistan</p>
+                </div>
+
+                <div class="col-lg-4 info mt-4 mt-lg-0">
+                    <i class="fa-regular fa-envelope"></i>
+                  <h4>Email:</h4>
+                  <p><a href="mailto:info@shiftbyte.tech">info@shiftbyte.tech</a></p>
+                </div>
+
+                <div class="col-lg-4 info mt-4 mt-lg-0">
+                    <i class="fa-solid fa-headset"></i>
+                  <h4>Call:</h4>
+                  <p><a href="tel:+93 74 753 3455">+93 74 753 3455</a></p>
+                </div>
               </div>
             </div>
-    </form>
-        <div class="media">
-        
-          <a href="#"> <li><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></li></a>
-           <a href="#"><li><i class="fa-brands fa-github fa-2x" aria-hidden="true"></i></li></a>
-           <a href="#"><li><i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i></li></a>
-            <a href="#"><li><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></li></a>
-        </div>
-        <div class="empty"></div>
-        </div>
-  </div>
 
-    
+          </div>
+
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <form class="email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Us Section -->
+     <!--map------------------->
+	
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1701.5252574812218!2d74.31603229143637!3d31.46779655679461!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391906abd2d8f2db%3A0x2d4bd93a1eb25b41!2sArfa%20Technologies!5e0!3m2!1sen!2s!4v1596774150754!5m2!1sen!2s" width="1000" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>	
+
+  </main><!-- End #main -->
 </template>
 
 <script>
@@ -76,163 +76,176 @@ export default {
 </script>
 
 <style>
+.contactUs {
+  background: url("https://wallpaperaccess.com/full/1428482.jpg") top center no-repeat;
+  color: #fff;
+  padding: 10% 10%; 
+  transition: opacity 0.2s ease;
+  width: 100%;
+  content: ' ';
+  z-index: 2;
+  backface-visibility: hidden;
+  background-position: 50% 0;
+  background-size: cover; 
+  background-attachment: fixed;  
+  height: auto;
+  overflow-x: hidden;
+  overflow-y: hidden; 
+  vertical-align: middle; 
+  display: block;
+  position: relative; 
+  opacity: 0.9;
+} 
 
-.contactus {
-    background-color: #003366;
-    width: 100%;
-    height: 100vh;
-    background-size: 100% 110vh;
-    position: relative;
-}
-
-header{
-    position: absolute;
-    text-align: center;
-    width: 75%;
-    left: 12%;
-    top: 2rem;
-}
-header h1{
-  padding: 20px 18px; 
-    margin-bottom: 0;
-    text-align:center;
-    font-family: 'Roboto', sans-serif, Myrid, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 700;
-    line-height: 1.5;
-    color: white;
-}
-header p{
-  vertical-align: middle;
-  padding: 8px 18px; 
-  color: white;
-  text-align:center;
-  margin-bottom: 40px;
-  font-weight: 400;
-  line-height: 1.4;
-  font-family: 'Roboto', sans-serif, Myrid, "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-.empty{
-    width: 100%;
-    height: 100vh;
-    background-color: rgba(0,0,0,0.5);
-    position: absolute;
-    top: 0px;
-    left: 0;
-    z-index: -1;
+@media (min-width: 1024px) {
+.contactUs{
+    background-attachment: fixed;
+  }
 }
 
-.content{
-    display: flex;
-    min-height: 110vh;
-}
-.content section{
-    margin-top: 10vh;
-    margin-left: 20vh;
-}
-.content-form{
-    margin-top: 7rem;
+#main {
+  position: relative;
 }
 
-.content-form h2 {
-  color: white;
-  font-family: 'Roboto', sans-serif, Myrid, "Helvetica Neue", Helvetica, Arial, sans-serif;
+.section-title {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.section-title p {
+  margin-bottom: 0;
+}
+
+/*--------------------------------------------------------------
+# Contact Us
+--------------------------------------------------------------*/
+
+.contact .info-wrap {
+  background: rgba(255, 255, 255, 0.06);
+  padding: 30px;
+}
+.contact .info-wrap a {
+  color: #fff;
+}
+
+.contact .info i {
   font-size: 20px;
-}
-.content-form p {
-  color: white;
-  font-family: 'Roboto', sans-serif, Myrid, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 15px;
-}
-
-.form{
-    display: flex;
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin-left: 50%;
-    justify-content: center;
-    align-items: center;
-    min-height: 110vh;
+  color: #fff;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
 }
 
-.form .contact-form input{
-    width: 30rem;
-    background-color: transparent;
-    border: 0px;
-    border: transparent;
-    margin: 20px;
-    padding: 10px;
-    font-size: 18px;
-    border-bottom: 2px solid #fff;
+.contact .info h4 {
+  padding: 0 0 0 60px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
 }
-.form .contact-form input ~ span{
-    position: absolute;
-    left: 20px;
-    transition: 0.10s ease-in-out;
-    margin-top: 10px;
-    color: white;
+
+.contact .info p {
+  padding: 0 0 10px 60px;
+  margin-bottom: 20px;
+  font-size: 14px;
 }
-.form .contact-form input:focus ~span{
-    transform: translateY(-20px);
-    pointer-events: none;
+
+.contact .info .email p {
+  padding-top: 5px;
 }
-.form .contact-form textarea{
-    width: 30rem;
-    border: 0px;
-    background-color: transparent;
-    margin: 20px;
-    font-size: 17px;
-    border-bottom: 2px solid white;
-   
+
+.contact .info .social-links {
+  padding-left: 60px;
 }
-.form .contact-form textarea ~ span
-{
-    position: absolute;
-    left: 20px;
-    margin-top: 10px;
-    transition: 0.10s ease-in-out;
-    color: white;
+
+.contact .info .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #333;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+  margin-right: 10px;
 }
-.form .contact-form textarea:focus ~span{
-    transform: translateY(-20px);
-    pointer-events: none;
+
+.contact .email-form {
+  width: 100%;
+  padding: 30px;
+  padding-top: 0;
+  background: rgba(255, 255, 255, 0.06);
 }
-.form .contact-form input[type=submit]{
-    background-color: white;
-    color: #003366;
-    position:flex;
-    font-size: 18px;
-    padding: 10px;
-    text-align: center;
-    border: none; 
-    font-family: 'Roboto', sans-serif, Myrid, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    width: 50%;
-    height: 40px;
-    margin-top: -5px; 
+
+.contact .email-form .form-group {
+  padding-bottom: 8px;
 }
-.form .contact-form input[type=submit]:hover{
-    background-color: #003366;
-    color: white;
-    position:flex;
-    font-size: 18px;
-    padding: 10px;
-    text-align: center;
-    border: none; 
-    font-family: 'Roboto', sans-serif, Myrid, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    width: 50%;
-    height: 40px;
-    margin-top: -5px;
-    box-shadow: 0 0 10px whitesmoke;
+
+.contact .email-form input,
+.contact .email-form textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
 }
-.media{
-    position: absolute;
-    top: 85vh;
-    right: 50vh;
-    display: flex;
-    list-style: none;
+
+.contact .email-form input::-moz-placeholder,
+.contact .email-form textarea::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.4);
 }
-.media li{
-    margin: 20px 30px;
+
+.contact .email-form input::placeholder,
+.contact .email-form textarea::placeholder {
+  color: rgba(255, 255, 255, 0.4);
 }
+
+.contact .email-form input {
+  height: 44px;
+}
+
+.contact .email-form textarea {
+  padding: 10px 12px;
+}
+
+.contact .email-form button[type=submit] {
+  background: #9e42a7;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+}
+
+.contact .email-form button[type=submit]:hover {
+  background: #a86565;
+}
+
+
+iframe {
+    width: 100%;
+    height: 500px;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+	border: 2px solid #FFFFFF;
+    /* filter: invert(100%); */
+
+}
+
+
 </style>
 

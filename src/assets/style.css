@@ -1,19 +1,9 @@
-:root {
-  --primary-color: #272a31;
-  --secondary-color: #ec5242;
-  --tertiary-color: #d3d3d3;
-  --primary-font: primary-bold;
-  --secondary-font: "Lato", sans-serif;
-  --tertiary-font: primary-light;
-}
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: var(--secondary-font);
-  /* color: #4c4c4c;
-  font: 500 16px/1.25 din-round,sans-serif; */
 }
 
 /* Navbar Section */
@@ -23,51 +13,28 @@
   z-index: 99;
   width: 70%;
   height: 100vh;
-  background-color: var(--tertiary-color);
-  box-shadow:1px 2px 20px #626568;;
   transform: translateX(-102%);
   transition: transform 0.5s ease-in;
 }
 
 .nav-active {
   transform: translateX(0) !important;
-}
+} 
 
 .logo {
   display: none;
 }
-
+/* 
 #navbar ul {
   padding-top: 100px;
   padding-right: 20%;
   padding-left: 30px;
-}
+} */
 
-#navbar ul li {
-  list-style-type: none;
-  padding: 20px 10px;
-}
-
-#navbar ul li a {
-  text-decoration: none;
-  color:#6c757d;
-  font-size: 17px;
-  font-weight: 600;
-  font-family: 'Roboto', sans-serif, Myrid, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  -webkit-transition: all .7s cubic-bezier(.645,.045,.355,1);
-  transition: all .7s cubic-bezier(.645,.045,.355,1);
-}
-
-#navbar ul li a:hover {
-  color:  #145ac4;
-  text-decoration: underline;
-  font-family: 'Roboto', sans-serif, Myrid, "Helvetica Neue", Helvetica, Arial, sans-serif;
- 
-}
 
 .last-link {
   border: none !important;
-}
+} 
 
 /* .focused {
   text-align: center;
@@ -78,12 +45,12 @@
   box-shadow: 5px 5px 15px var(--primary-color);
 } */
 
-.humberger {
+ .humberger {
   position: fixed;
   z-index: 9999;
   padding: 30px;
   cursor: pointer;
-}
+} 
 
 .humberger div {
   width: 35px;
@@ -92,9 +59,9 @@
   height: 7px;
   cursor: pointer;
   transition: all 0.3s ease;
-}
+} 
 
-.toggle .line1 {
+ .toggle .line1 {
   transform: rotate(-45deg) translate(-9px, 9px);
 }
 
@@ -104,86 +71,106 @@
 
 .toggle .line3 {
   transform: rotate(45deg) translate(-10px, -10px);
+} 
+
+.intro {
+  background-color: #0f0033;
+  height:96vh;
+  padding: 10%  10%;
 }
 
-.intro h2 {
-  padding-top: 70px;
-  color: var(--secondary-color);
-  font-size: 20px;
-  font-weight: 400;
-  font-family: 'Roboto', sans-serif, Myrid, "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-.txt h2 {
-  /* padding-top:100px;  */
-  color: #326293;
-  font-size: 20px;
-  font-weight: 400px;
-  position: relative;
-  top: 4%;
-  left: 0%;
-  margin-bottom: 4%;
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-  font-family: 'Roboto', sans-serif, Myrid, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  
-}   
-
-/* 
-#footer {
-  background-color: white;
+.text_h2 h2 {
+  color: white;
+  padding-top: 0;
+  font-size: 34px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 10px;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif, Myrid, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-#footer .title {
-  font-size: 25px;
-  font-weight: 700;
-  text-align: center;
-  color: var(--primary-color);
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-#footer hr {
-  width: 200px;
-  background-color: var(--primary-color);
-  height: 5px;
-  border: none;
-}
-.footer{
-  display: grid;
-  grid-template-columns: 1fr;
-  row-gap: 30px;
-  padding-top: 40px;
-  padding-bottom: 20px;
-}
-
-.footer div {
-  gap: 20px;
-  background-color: #6c757d;
-  align-items: center;
-  padding: 20px 70px;
-}
-
-.footer h3 {
-  color: var(--primary-color);
-  flex: 1.2 1 0;
+.footer-title {
+  font-weight: 600;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif, Myrid, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding-top: 0;
+  padding-bottom: 0;
+} 
+.button{
+  width: 10%;
+  color: #003366;
   font-size: 20px;
-  font-weight: 800;
+  padding: 10px;
+  text-align: center;
+  float: left;
+  border: none; 
+  font-family: 'Roboto', sans-serif, Myrid, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  position: sticky;
+  display: flex;
+  align-items: center;
+  transition-property: background; 
+  transition-duration: 300ms; 
+  transition-delay: 0s;
+  animation: push 300ms linear 300ms; 
+  background-color: white;
+  transition-delay: 300ms;
+}
+.button:hover {
+  width: 10%;
+  background-color:  #003366; 
+  color:white;
+  font-family: 'Roboto', sans-serif, Myrid, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  position:flex;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  float: left;
+  border: none;
+  box-shadow: 0 0 10px whitesmoke;
+}
+.mt{
+  float: none;
+  position:relative;
+  top:33%;
+  left:60%;
+  right: 1%;
+  max-width:40%;
+} 
+
+
+/* jumBtron2 */
+
+.services h3 {
+  padding: 20px 18px; 
+  margin-bottom: 0;
+  text-align:center;
+  font-family: 'Roboto', sans-serif, Myrid, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #003366;
+
+}
+.services h4 {
+vertical-align: middle;
+padding: 8px 18px; 
+color: #003366;
+text-align:center;
+margin-bottom: 40px;
+font-weight: 400;
+line-height: 1.4;
+font-family: 'Roboto', sans-serif, Myrid, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.footer p {
-  color: var(--primary-color);
-  flex: 3 1 0;
-  font-size: 16px;
-} */
-
+/* About us */
 
 /* Desktop Version */
 @media screen and (min-width: 768px) {
+
+.content { background-image: none; 
+} 
+
+#navigation-mobile {
+ display: none;
+}
 .logo img {
   width: 60px;
   padding-bottom: 27px;
@@ -214,6 +201,23 @@
   right:0;
 }
 
+
+#navbar ul li a {
+  color:#6c757d;
+  font-family: 'Roboto', sans-serif, Myrid, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border-bottom: 3px solid transparent;
+  color: inherit;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 600;
+} 
+
+#navbar ul li a:hover {
+  background-color: white;
+  border-bottom-color: blue;
+ 
+}
+
 #navbar ul {
   display: flex;
   align-items: center;
@@ -229,6 +233,7 @@
   font-weight: 800;
   color: #4c4c4c;
   font: 500 16px/1.25 din-round,sans-serif;
+    list-style-type: none;
 }
 .humberger {
   display: none;
@@ -246,12 +251,15 @@
   padding: 30px 120px;
 }
 
-.txt h2 {
+.text_h2 h2 {
   color: white;
   padding-top: 0;
   font-size: 34px;
+  display: flex;
+  justify-content: center;
   font-family: 'Roboto', sans-serif, Myrid, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
 .footer-title {
   font-weight: 600;
   font-size: 15px;
@@ -280,7 +288,7 @@
 }
 .button:hover {
   width: 10%;
-  background-color:  #003366; ;
+  background-color:  #003366; 
   color:white;
   font-family: 'Roboto', sans-serif, Myrid, "Helvetica Neue", Helvetica, Arial, sans-serif;
   position:flex;
@@ -298,42 +306,6 @@
   left:60%;
   right: 1%;
   max-width:40%;
-} 
-
-/* jumBtron2 */
-
-.second_intro {
-  padding: 100px 120px; 
-  background-repeat: no-repeat;
-  background-image: url(https://optemizer.com/wp-content/uploads/2021/01/design-trends-in-mobile-applications-main.jpg);
-  transition: opacity 0.2s ease;
-  width: 100%;
-  content: ' ';
-  z-index: 2;
-  backface-visibility: hidden;
-  opacity: 0.9; 
-  background-position: 50% 0;
-  background-size: cover; 
-  background-attachment: fixed;  
-  height: auto;
-  overflow-x: hidden;
-  overflow-y: hidden; 
-  vertical-align: middle; 
-  display: block;
-  position: relative; 
-
-}
-
-.second_intro h2{
-  color: white;
-  bottom: 0;
-  font-size: 34px;
-  font-family: 'Roboto', sans-serif, Myrid, "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-.mt_2{
-
-  top:25%;
 } 
 
  /* services */
@@ -363,7 +335,6 @@ margin-bottom: 40px;
 font-weight: 400;
 line-height: 1.4;
 font-family: 'Roboto', sans-serif, Myrid, "Helvetica Neue", Helvetica, Arial, sans-serif;
-
 }
 .services h5{
   font-size: 18px;
@@ -387,80 +358,14 @@ background: #fff;
 padding: 25px 30px 34px;
 display: flex;
 flex-direction: column;
-/* height: 100%; */
 -o-transition: all .7s cubic-bezier(.645,.045,.355,1);
 transition: all .7s cubic-bezier(.645,.045,.355,1);
 box-shadow: 0 0 30px rgb(128 128 128 / 24%)
-
-
 }
 .cards:hover{
 -webkit-transform: translateY(-5px);
 transform: translateY(-5px);
 }
-.first-icon{
-    position: relative;
-    z-index: 2;
-    margin: auto;
-    width: 88px;
-    height: 88px;
-    border: 8px solid #6c757d;
-    line-height: 88px;
-    border-radius: 5%;
-    background:  #003366;
-    vertical-align: middle;
-}
-.first-icon:hover{
-position: relative;
-z-index: 2;
-margin: auto;
-width: 88px;
-height: 88px;
-border: 8px solid  #2799b7;
-line-height: 88px;
-border-radius: 50%;
-background:  #6c757d;
-vertical-align: middle;
-}
-
-.image {
-position: relative;
-z-index: 2;
-margin: 1px;
-width: 88px;
-height: 88px;
-line-height: 88px;
-vertical-align: middle;
-
-}
-
-
-.images {
-position: relative;
-z-index: 2;
-margin: 0;
-margin-bottom: 30px;
-width: 88px;
-height: 88px;
-border: 8px solid #6c757d; 
-line-height: 100px;
-border-radius: 5%;
-background: wheat;
-vertical-align: middle;
-padding-top: 0;
-}
-
-
-i:not(.fa-mobile-screen-button)  {
-color: white;
-margin-left: 16px;
-}
-
-.fa-mobile-screen-button{
-color: white;
-margin-left: 22px;
-}
-
 
 .card h5{
 text-align: center;
@@ -492,16 +397,6 @@ font-family: 'Roboto', sans-serif, Myrid, "Helvetica Neue", Helvetica, Arial, sa
   padding-top: 30px;
 }
 .title_2 {
-/* padding-top: 0;
-padding-bottom:20px;
-margin-bottom: 10px;
-text-align:center;
-font-family: 'Roboto', sans-serif, Myrid, "Helvetica Neue", Helvetica, Arial, sans-serif;
-font-weight: 700;
-line-height: 1.5;
-font-size: 30px;
-color: white;
-*/
 color: white;
 font-size: 23px;
 text-align: center;

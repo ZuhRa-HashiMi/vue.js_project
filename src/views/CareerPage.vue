@@ -16,10 +16,7 @@
           <p class="text-start">To learn more about how we work, check our handbook named Compass, Github organisation and Medium account. Want to see what we have built? Check our Dribbble and Behance accounts.</p>
          </div>
          </section>
-     
-       
-       
-   
+
 </template>
 
 <script>

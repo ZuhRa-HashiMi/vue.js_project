@@ -12,9 +12,9 @@
     <!-- Introduction Section -->
     <section class="whatBuild__image">
         <div class=" txt p-4 pb-0">
-          <h2 class="text-start fw-bold mb-4 fs-1">Beautiful and solid<br>
+          <h2 class="text-center fw-bold mb-4 fs-1">Beautiful and solid<br>
              web and mobile applications.</h2>
-         <h2 class="text-start fs-5 fw-bold">Over the years we have partnered with amazing innovative companies around the world to build ambitious web and mobile applications, from one-person startups to Fortune 500 companies.
+         <h2 class="text-center fs-2 fw-bold">Over the years we have partnered with amazing innovative companies around the world to build ambitious web and mobile applications, from one-person startups to Fortune 500 companies.
          </h2> 
         </div>
     </section>
@@ -24,7 +24,8 @@
           <h2 class="text-start fw-bold Are">Are you<br>
              convienced?</h2>
          <h2 class="text-start fs-5 fw-bold pt-0">We'd love to hear about your project.</h2 >
-        <a href=""><button class="build"  @click="layout = 'contactus'" >Contauct Us</button></a>
+        <!-- <a href=""><button class="build"  @click="layout = 'contactus'" >Contauct Us</button></a> -->
+        <router-link to="/contact"> <button class="build">Contauct Us</button></router-link>
         </div>
        
     </section>
@@ -51,13 +52,13 @@ export default {
 .whatBuild__image {
   padding: 100px 120px; 
   background-repeat: no-repeat;
-  background-image: url(https://media.istockphoto.com/id/1302907498/vector/tiny-people-working-from-different-countries.jpg?s=612x612&w=0&k=20&c=dAwA7BEJCK2GfHm1qyqfWKZhGGvmvKGbzfY7E4MrQEg=);
+  background-image: url(https://assets.entrepreneur.com/content/3x2/2000/20190612193425-GettyImages-1066987316-crop.jpeg?crop=16:9);
   transition: opacity 0.2s ease;
   width: 100%;
   content: ' ';
   z-index: 2;
+  opacity: 0.9;
   backface-visibility: hidden;
-  opacity: 0.8; 
   background-position: 50% 0;
   background-size: cover; 
   background-attachment: fixed;  
@@ -71,7 +72,7 @@ export default {
 }
 
 .whatBuild__image h2 {
-  color: black;
+  color:  #ea0643;
   margin-bottom: 2rem;
   line-height: 1.25;
   text-indent: -4px;
